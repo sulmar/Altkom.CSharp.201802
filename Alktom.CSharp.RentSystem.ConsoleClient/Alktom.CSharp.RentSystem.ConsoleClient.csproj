@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{5A28C37E-4934-4D20-B22B-3DF3BC23FB8C}</ProjectGuid>
+    <ProjectGuid>{00AD0892-61D2-425E-81CB-A22D0EF8886C}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Altkom.CSharp.HelloWorld</RootNamespace>
-    <AssemblyName>Altkom.CSharp.HelloWorld</AssemblyName>
+    <RootNamespace>Alktom.CSharp.RentSystem.ConsoleClient</RootNamespace>
+    <AssemblyName>Alktom.CSharp.RentSystem.ConsoleClient</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -42,13 +42,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Person.cs" />
-    <Compile Include="PersonInfo.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Altkom.CSharp.RentSystem.Models\Altkom.CSharp.RentSystem.Models.csproj">
+      <Project>{0B8DF167-9A5E-4E6C-ADB6-C4768CEAC91B}</Project>
+      <Name>Altkom.CSharp.RentSystem.Models</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

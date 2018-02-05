@@ -5,6 +5,10 @@ VisualStudioVersion = 15.0.27130.2027
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Altkom.CSharp.HelloWorld", "Altkom.CSharp.HelloWorld\Altkom.CSharp.HelloWorld.csproj", "{5A28C37E-4934-4D20-B22B-3DF3BC23FB8C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Alktom.CSharp.RentSystem.ConsoleClient", "Alktom.CSharp.RentSystem.ConsoleClient\Alktom.CSharp.RentSystem.ConsoleClient.csproj", "{00AD0892-61D2-425E-81CB-A22D0EF8886C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Altkom.CSharp.RentSystem.Models", "Altkom.CSharp.RentSystem.Models\Altkom.CSharp.RentSystem.Models.csproj", "{0B8DF167-9A5E-4E6C-ADB6-C4768CEAC91B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{5A28C37E-4934-4D20-B22B-3DF3BC23FB8C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5A28C37E-4934-4D20-B22B-3DF3BC23FB8C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5A28C37E-4934-4D20-B22B-3DF3BC23FB8C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{00AD0892-61D2-425E-81CB-A22D0EF8886C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00AD0892-61D2-425E-81CB-A22D0EF8886C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00AD0892-61D2-425E-81CB-A22D0EF8886C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00AD0892-61D2-425E-81CB-A22D0EF8886C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0B8DF167-9A5E-4E6C-ADB6-C4768CEAC91B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B8DF167-9A5E-4E6C-ADB6-C4768CEAC91B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B8DF167-9A5E-4E6C-ADB6-C4768CEAC91B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B8DF167-9A5E-4E6C-ADB6-C4768CEAC91B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
