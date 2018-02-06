@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Altkom.CSharp.RentSystem.Models.Base" Collapsed="true">
+    <Position X="7.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Base.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Altkom.CSharp.RentSystem.Models.Person" Collapsed="true">
+    <Position X="4" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAg=</HashCode>
+      <FileName>Person.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Altkom.CSharp.RentSystem.Models.Woman" Collapsed="true">
+    <Position X="2.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAQAAAA=</HashCode>
+      <FileName>Person.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Altkom.CSharp.RentSystem.Models.Man" Collapsed="true">
+    <Position X="5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Person.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Altkom.CSharp.RentSystem.Models.Goggles" Collapsed="true">
+    <Position X="7.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Products\Goggles.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Altkom.CSharp.RentSystem.Models.Product" Collapsed="true">
+    <Position X="10.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAJAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Products\Product.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Altkom.CSharp.RentSystem.Models.Shoes" Collapsed="true">
+    <Position X="14" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Products\Shoes.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Altkom.CSharp.RentSystem.Models.CrossCountrySki" Collapsed="true">
+    <Position X="9.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Products\Ski\CrossCountrySki.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Altkom.CSharp.RentSystem.Models.DownHillSki" Collapsed="true">
+    <Position X="11.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Products\Ski\DownHillSki.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Altkom.CSharp.RentSystem.Models.Ski" Collapsed="true">
+    <Position X="10.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Products\Ski\Ski.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Altkom.CSharp.RentSystem.Models.Rent" Collapsed="true">
+    <Position X="0.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAACAAAAAAACAAIAAAAAABAEAAAAAAAQAAAAEAAAAAA=</HashCode>
+      <FileName>Rent.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="Altkom.CSharp.RentSystem.Models.GogglesSize" Collapsed="true">
+    <Position X="16.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAaAAAA=</HashCode>
+      <FileName>Products\GogglesSize.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Altkom.CSharp.RentSystem.Models.ProductType" Collapsed="true">
+    <Position X="18.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAIAAAAAAAAAAgAAAAAAAEAAQAAAAAAA=</HashCode>
+      <FileName>ProductType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

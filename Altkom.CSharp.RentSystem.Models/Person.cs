@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Altkom.CSharp.RentSystem.Models
 {
-    public abstract class Person
+    public abstract class Person : Base
     {
         public int Id { get; set; }
         public string FirstName { get; set; }

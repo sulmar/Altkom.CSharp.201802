@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Alktom.CSharp.RentSystem.Co
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Altkom.CSharp.RentSystem.Models", "Altkom.CSharp.RentSystem.Models\Altkom.CSharp.RentSystem.Models.csproj", "{0B8DF167-9A5E-4E6C-ADB6-C4768CEAC91B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Altkom.CSharp.RentSystem.Calculators", "Altkom.CSharp.RentSystem.Calculators\Altkom.CSharp.RentSystem.Calculators.csproj", "{7419705D-03B9-4EE2-9867-7236ED34CD6E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{0B8DF167-9A5E-4E6C-ADB6-C4768CEAC91B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0B8DF167-9A5E-4E6C-ADB6-C4768CEAC91B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0B8DF167-9A5E-4E6C-ADB6-C4768CEAC91B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7419705D-03B9-4EE2-9867-7236ED34CD6E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7419705D-03B9-4EE2-9867-7236ED34CD6E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7419705D-03B9-4EE2-9867-7236ED34CD6E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7419705D-03B9-4EE2-9867-7236ED34CD6E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

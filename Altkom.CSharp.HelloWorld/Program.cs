@@ -36,6 +36,7 @@ namespace Altkom.CSharp.HelloWorld
 
         private static void MethodTest()
         {
+
             var user = new Person("Marcin", "Sulecki");
 
             user.Age = 18;
