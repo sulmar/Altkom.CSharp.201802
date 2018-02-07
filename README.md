@@ -16,8 +16,8 @@ Przykłady ze szkolenia Wprowadzenie do języka C# w Visual Studio 2017 w Altkom
 
 
 ## Polecane narzędzia
-Balsamiq https://balsamiq.com/
-LinqPad http://www.linqpad.net/
+- Balsamiq https://balsamiq.com/
+- LinqPad http://www.linqpad.net/
 
 
 
