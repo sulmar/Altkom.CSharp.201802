@@ -59,6 +59,18 @@
       <Project>{00AD0892-61D2-425E-81CB-A22D0EF8886C}</Project>
       <Name>Alktom.CSharp.RentSystem.ConsoleClient</Name>
     </ProjectReference>
+    <ProjectReference Include="..\Altkom.CSharp.RentSystem.DbServices\Altkom.CSharp.RentSystem.DbServices.csproj">
+      <Project>{5DCCFDA8-8552-42F7-BC53-C8A385BD1140}</Project>
+      <Name>Altkom.CSharp.RentSystem.DbServices</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Altkom.CSharp.RentSystem.IServices\Altkom.CSharp.RentSystem.IServices.csproj">
+      <Project>{E9F74A39-58AE-4ABD-ABF5-0228926D2F19}</Project>
+      <Name>Altkom.CSharp.RentSystem.IServices</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Altkom.CSharp.RentSystem.MockServices\Altkom.CSharp.RentSystem.MockServices.csproj">
+      <Project>{F2717C21-590C-487E-9318-1602CC8AA732}</Project>
+      <Name>Altkom.CSharp.RentSystem.MockServices</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Altkom.CSharp.RentSystem.Models\Altkom.CSharp.RentSystem.Models.csproj">
       <Project>{0B8DF167-9A5E-4E6C-ADB6-C4768CEAC91B}</Project>
       <Name>Altkom.CSharp.RentSystem.Models</Name>

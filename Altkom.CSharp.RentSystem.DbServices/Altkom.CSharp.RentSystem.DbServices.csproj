@@ -4,16 +4,15 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{00AD0892-61D2-425E-81CB-A22D0EF8886C}</ProjectGuid>
-    <OutputType>Exe</OutputType>
-    <RootNamespace>Alktom.CSharp.RentSystem.ConsoleClient</RootNamespace>
-    <AssemblyName>Alktom.CSharp.RentSystem.ConsoleClient</AssemblyName>
+    <ProjectGuid>{5DCCFDA8-8552-42F7-BC53-C8A385BD1140}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Altkom.CSharp.RentSystem.DbServices</RootNamespace>
+    <AssemblyName>Altkom.CSharp.RentSystem.DbServices</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
-    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
-    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
@@ -23,7 +22,6 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
-    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugType>pdbonly</DebugType>
     <Optimize>true</Optimize>
     <OutputPath>bin\Release\</OutputPath>
@@ -42,38 +40,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Program.cs" />
+    <Compile Include="DbPersonsService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="App.config" />
-    <None Include="diagramy.bmpr" />
-    <None Include="diagramy.pdf" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\Altkom.CSharp.RentSystem.Calculators\Altkom.CSharp.RentSystem.Calculators.csproj">
-      <Project>{7419705D-03B9-4EE2-9867-7236ED34CD6E}</Project>
-      <Name>Altkom.CSharp.RentSystem.Calculators</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\Altkom.CSharp.RentSystem.DbServices\Altkom.CSharp.RentSystem.DbServices.csproj">
-      <Project>{5DCCFDA8-8552-42F7-BC53-C8A385BD1140}</Project>
-      <Name>Altkom.CSharp.RentSystem.DbServices</Name>
-    </ProjectReference>
     <ProjectReference Include="..\Altkom.CSharp.RentSystem.IServices\Altkom.CSharp.RentSystem.IServices.csproj">
       <Project>{E9F74A39-58AE-4ABD-ABF5-0228926D2F19}</Project>
       <Name>Altkom.CSharp.RentSystem.IServices</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\Altkom.CSharp.RentSystem.MockServices\Altkom.CSharp.RentSystem.MockServices.csproj">
-      <Project>{F2717C21-590C-487E-9318-1602CC8AA732}</Project>
-      <Name>Altkom.CSharp.RentSystem.MockServices</Name>
     </ProjectReference>
     <ProjectReference Include="..\Altkom.CSharp.RentSystem.Models\Altkom.CSharp.RentSystem.Models.csproj">
       <Project>{0B8DF167-9A5E-4E6C-ADB6-C4768CEAC91B}</Project>
       <Name>Altkom.CSharp.RentSystem.Models</Name>
     </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="Script.sql" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

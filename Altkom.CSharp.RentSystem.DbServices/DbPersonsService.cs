@@ -6,9 +6,10 @@ using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Alktom.CSharp.RentSystem.IServices;
 using Altkom.CSharp.RentSystem.Models;
 
-namespace Alktom.CSharp.RentSystem.ConsoleClient
+namespace Alktom.CSharp.RentSystem.DbServices
 {
     public class DbPersonsService : IPersonsService
     {

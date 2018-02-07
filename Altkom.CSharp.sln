@@ -13,6 +13,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Altkom.CSharp.RentSystem.Ca
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Altkom.CSharp.RentSystem.UnitTests", "Altkom.CSharp.RentSystem.UnitTests\Altkom.CSharp.RentSystem.UnitTests.csproj", "{D86309A3-A626-47B6-8F8A-B296A6F29AF7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Altkom.CSharp.RentSystem.IServices", "Altkom.CSharp.RentSystem.IServices\Altkom.CSharp.RentSystem.IServices.csproj", "{E9F74A39-58AE-4ABD-ABF5-0228926D2F19}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Altkom.CSharp.RentSystem.MockServices", "Altkom.CSharp.RentSystem.MockServices\Altkom.CSharp.RentSystem.MockServices.csproj", "{F2717C21-590C-487E-9318-1602CC8AA732}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Altkom.CSharp.RentSystem.DbServices", "Altkom.CSharp.RentSystem.DbServices\Altkom.CSharp.RentSystem.DbServices.csproj", "{5DCCFDA8-8552-42F7-BC53-C8A385BD1140}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +45,18 @@ Global
 		{D86309A3-A626-47B6-8F8A-B296A6F29AF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D86309A3-A626-47B6-8F8A-B296A6F29AF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D86309A3-A626-47B6-8F8A-B296A6F29AF7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E9F74A39-58AE-4ABD-ABF5-0228926D2F19}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E9F74A39-58AE-4ABD-ABF5-0228926D2F19}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E9F74A39-58AE-4ABD-ABF5-0228926D2F19}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E9F74A39-58AE-4ABD-ABF5-0228926D2F19}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F2717C21-590C-487E-9318-1602CC8AA732}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2717C21-590C-487E-9318-1602CC8AA732}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2717C21-590C-487E-9318-1602CC8AA732}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2717C21-590C-487E-9318-1602CC8AA732}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5DCCFDA8-8552-42F7-BC53-C8A385BD1140}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5DCCFDA8-8552-42F7-BC53-C8A385BD1140}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5DCCFDA8-8552-42F7-BC53-C8A385BD1140}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5DCCFDA8-8552-42F7-BC53-C8A385BD1140}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

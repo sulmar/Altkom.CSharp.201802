@@ -1,5 +1,8 @@
 ﻿using System;
 using Alktom.CSharp.RentSystem.ConsoleClient;
+using Alktom.CSharp.RentSystem.DbServices;
+using Alktom.CSharp.RentSystem.IServices;
+using Altkom.CSharp.RentSystem.MockServices;
 using Altkom.CSharp.RentSystem.Models;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 

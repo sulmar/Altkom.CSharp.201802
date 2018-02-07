@@ -1,20 +1,13 @@
-﻿using Altkom.CSharp.RentSystem.Models;
+﻿using Alktom.CSharp.RentSystem.IServices;
+using Altkom.CSharp.RentSystem.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Alktom.CSharp.RentSystem.ConsoleClient
+namespace Altkom.CSharp.RentSystem.MockServices
 {
-    public interface IProductsService
-    {
-        Product Get(string barcode);
-
-        List<Product> GetByPrice(decimal limitPrice);
-    }
-
-
     public class MockProductsService : IProductsService
     {
         private List<Product> products = new List<Product>();
