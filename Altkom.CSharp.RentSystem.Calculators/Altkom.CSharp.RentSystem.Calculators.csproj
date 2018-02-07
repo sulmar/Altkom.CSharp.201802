@@ -40,7 +40,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CalculatorFactory.cs" />
     <Compile Include="CostCalculator.cs" />
+    <Compile Include="HappyHoursCostCalculator.cs" />
     <Compile Include="ICalculatorFactory.cs" />
     <Compile Include="ICostCalculator.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
