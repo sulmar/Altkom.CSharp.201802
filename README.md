@@ -1,5 +1,5 @@
 # Sulmar.CSharp.201802
-Przykłady ze szkolenia Wprowadzenie do języka C# w Visual Studio 2017 w Altkom Akademia
+Przykłady ze szkolenia **Wprowadzenie do języka C# w Visual Studio 2017** w **Altkom Akademia**
 
 ## Projekty
 
