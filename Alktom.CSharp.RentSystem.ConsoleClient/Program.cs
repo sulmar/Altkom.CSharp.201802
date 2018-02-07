@@ -17,6 +17,31 @@ namespace Alktom.CSharp.RentSystem.ConsoleClient
     {
         static void Main(string[] args)
         {
+            RentProductTest();
+
+            GetProductsTest();
+
+            CalculateRentTest();
+
+        }
+
+        private static void GetProductsTest()
+        {
+            IProductsService productsService = new MockProductsService();
+            var items = productsService.GetByPrice(100);
+
+            Console.WriteLine("Znalezione produkty foreach");
+            foreach (var item in items)
+            {
+                Console.WriteLine($"{item.Name} {item.PricePerHour}");
+            }
+
+            Console.WriteLine("Znalezione produkty ForEach");
+            items.ForEach(item => Console.WriteLine($"{item.Name} {item.PricePerHour}"));
+        }
+
+        private static void RentProductTest()
+        {
             WriteLine("Witaj w wypożyczalni");
 
             // 1. Wyswietl "Podaj imie i nazwisko"
@@ -46,27 +71,9 @@ namespace Alktom.CSharp.RentSystem.ConsoleClient
             var rent = new Rent(person, product);
 
             WriteLine($"Wypożyczył: {rent.Rentee.FirstName} Produkt: {rent.Item.Name} Data: {rent.BeginDate}");
-
-            //var items = productsService.GetByPrice(100);
-
-            //Console.WriteLine("Znalezione produkty foreach");
-            //foreach (var item in items)
-            //{
-            //    Console.WriteLine($"{item.Name} {item.PricePerHour}");
-            //}
-
-            //Console.WriteLine("Znalezione produkty ForEach");
-            //items.ForEach(item => Console.WriteLine($"{item.Name} {item.PricePerHour}"));
-
-
-
-
-
-            // RentTest();
-
         }
 
-        private static void RentTest()
+        private static void CalculateRentTest()
         {
             Write("Podaj imię: ");
             string firstName = ReadLine();
