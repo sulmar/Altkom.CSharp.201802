@@ -50,6 +50,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="diagramy.bmpr" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Altkom.CSharp.RentSystem.Calculators\Altkom.CSharp.RentSystem.Calculators.csproj">
