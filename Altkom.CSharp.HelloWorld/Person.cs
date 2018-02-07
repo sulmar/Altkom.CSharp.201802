@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Altkom.CSharp.HelloWorld
 {
-    class Person
+    public class Person
     {
         private string firstName;
         public string FirstName

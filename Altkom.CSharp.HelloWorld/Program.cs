@@ -11,6 +11,15 @@ namespace Altkom.CSharp.HelloWorld
     {
         static void Main(string[] args)
         {
+            var sender = new Sender();
+
+            sender.Send("Hello");
+
+            sender.Send(DateTime.Now);
+
+
+
+
             MethodTest();
 
 

@@ -35,9 +35,9 @@ namespace Altkom.CSharp.RentSystem.Models
 
         public Rent(Person rentee, Product item)
         {
-            this.BeginDate = DateTime.Now;
             this.Rentee = rentee;
             this.Item = item;
+            this.BeginDate = DateTime.Now;
         }
 
         // Hermetyzacja

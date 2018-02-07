@@ -40,7 +40,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Address.cs" />
     <Compile Include="Base.cs" />
+    <Compile Include="Location.cs" />
     <Compile Include="Products\Ski\CrossCountrySki.cs" />
     <Compile Include="Products\Goggles.cs" />
     <Compile Include="Products\GogglesSize.cs" />

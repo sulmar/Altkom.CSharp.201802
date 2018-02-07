@@ -11,6 +11,12 @@ namespace Altkom.CSharp.RentSystem.Models
         public int Id { get; set; }
         public string FirstName { get; set; }
         public string LastName { get; set; }
+
+        public Address HomeAddress { get; set; }
+        public Address WorkAddress { get; set; }
+
+        public Location Location { get; set; }
+
     }
 
     // dziedziczenie

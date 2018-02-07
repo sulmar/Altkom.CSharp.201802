@@ -42,6 +42,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DbPersonsService.cs" />
+    <Compile Include="IPersonsService.cs" />
     <Compile Include="IProductsService.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -58,6 +60,9 @@
       <Project>{0B8DF167-9A5E-4E6C-ADB6-C4768CEAC91B}</Project>
       <Name>Altkom.CSharp.RentSystem.Models</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Script.sql" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

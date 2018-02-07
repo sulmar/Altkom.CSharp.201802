@@ -16,21 +16,44 @@ namespace Alktom.CSharp.RentSystem.ConsoleClient
         {
             WriteLine("Witaj w wypożyczalni");
 
+            // 1. Wyswietl "Podaj imie i nazwisko"
+
+            WriteLine("Podaj imię i nazwisko");
+
+            // 2. Odczytaj imie i nazwisko
+
+            string fullname = ReadLine();
+
+            // 3. Wyszukaj klienta
+            IPersonsService personsService = new DbPersonsService();
+            var person = personsService.GetByName(fullname);
+
+            // 4. Podaj kod kreskowy
+            WriteLine("Podaj kod kreskowy");
+            string barcode = ReadLine();
+
+            // 5. Wyszukaj produkt
             IProductsService productsService = new MockProductsService();
-            var product = productsService.Get("55555");
+            var product = productsService.Get(barcode);
+
             Console.WriteLine(product.Name);
 
+            // 6. Wypożycz
 
-            var items = productsService.GetByPrice(100);
+            var rent = new Rent(person, product);
 
-            Console.WriteLine("Znalezione produkty foreach");
-            foreach (var item in items)
-            {
-                Console.WriteLine($"{item.Name} {item.PricePerHour}");
-            }
+            WriteLine($"Wypożyczył: {rent.Rentee.FirstName} Produkt: {rent.Item.Name} Data: {rent.BeginDate}");
 
-            Console.WriteLine("Znalezione produkty ForEach");
-            items.ForEach(item => Console.WriteLine($"{item.Name} {item.PricePerHour}"));
+            //var items = productsService.GetByPrice(100);
+
+            //Console.WriteLine("Znalezione produkty foreach");
+            //foreach (var item in items)
+            //{
+            //    Console.WriteLine($"{item.Name} {item.PricePerHour}");
+            //}
+
+            //Console.WriteLine("Znalezione produkty ForEach");
+            //items.ForEach(item => Console.WriteLine($"{item.Name} {item.PricePerHour}"));
 
 
 
